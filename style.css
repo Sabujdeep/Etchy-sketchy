@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Raleway:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header{
+    margin: 2rem;
+    /* border: 1px solid red; */
+}
+
+h1{
+    font-size: 5rem;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+main{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 100vw;
+}
+
+.clear{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    margin-left: 20%;
+    gap: 1rem;
+}
+button{
+    /* position: absolute; */
+    height: 2rem;
+    width: 5rem;
+}
+
+.active{
+    background-color: black;
+    color: white;
+}
+
+.grids{
+    display: flex;
+    width: 32rem;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid black; */
+}
+
+.grids > div{
+    width: 2rem;
+    aspect-ratio: 1;
+    border: 1px solid gainsboro;
+    border-radius: 0.5rem;
+}
